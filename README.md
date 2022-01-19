@@ -17,11 +17,11 @@ In this project, you take a fairly complex application used to search a movie da
 
 ## Instructions
 ### Task 1: Project Set Up
-* [ ] Create a forked copy of this project.
-* [ ] Clone your OWN version of the repository in your terminal
-* [ ] cd into the project base directory `cd web-module-project-redux`
-* [ ] Download project dependencies by running `npm install``
-* [ ] Start up the app using `npm start`
+* [x] Create a forked copy of this project.
+* [x] Clone your OWN version of the repository in your terminal
+* [x] cd into the project base directory `cd web-module-project-redux`
+* [x] Download project dependencies by running `npm install``
+* [x] Start up the app using `npm start`
 
 ### Task 2: Project Requirements
 #### Setup Redux
@@ -50,11 +50,11 @@ In this project, you take a fairly complex application used to search a movie da
 
 * [ ] **Find the HTML element that should trigger a deletion in the movie component.** Create and connect the necessary event handlers to call deleteMovie on the current movie's id. After setting the state, redirect the user using the push('/movies') command.
 
-* [ ] Add in an ADD_MOVIE case to movieReducer.js.
-* [ ] Make this new case return a version of state with new movie values passed in through the payload.
-* [ ] Create an action creator for addMovie in movieActions.js.
-* [ ] Find the component that triggers the adding of a movie and connect the addMovie action.
-* [ ] Create and connect the necessary event handlers to call addMovie.
+* [x] Add in an ADD_MOVIE case to movieReducer.js.
+* [x] Make this new case return a version of state with new movie values passed in through the payload.
+* [x] Create an action creator for addMovie in movieActions.js.
+* [x] Find the component that triggers the adding of a movie and connect the addMovie action.
+* [x] Create and connect the necessary event handlers to call addMovie.
 * [ ] Add in push('/movies/) after calling your action to trigger a redirect.
 
 #### Build out the favorites reducer
